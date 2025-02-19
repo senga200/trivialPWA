@@ -1,10 +1,10 @@
 // service-worker.js
 
-const CACHE_NAME = 'trivial-pwa-cache-v1';
+const CACHE_NAME = 'trivial-pwa-cache-v2';
 const FILES_TO_CACHE = [
   
   'index.html',
-  'app.css',
+  'app.js',
   'style.css',
   'questions.json',
   'offline.html',
