@@ -2,11 +2,14 @@
 
 const CACHE_NAME = 'trivial-pwa-cache-v1';
 const FILES_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/app.css',
-  '/style.css',
-  '/questions.json',
+  
+  'index.html',
+  'app.css',
+  'style.css',
+  'questions.json',
+  'offline.html',
+  'triv192.png',
+  'triv512.png'
 ];
 
 // Installation : met les fichiers en cache
@@ -32,6 +35,7 @@ self.addEventListener('activate', event => {
 // Fetch : sert les fichiers depuis le cache ou le réseau
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request).then(response => response || fetch(event.request))
-  );
+  caches.match(event.request).then(response => { return response || fetch(event.request).catch(() => caches.match('offline.html')) ;}
+  )
+);
 });
