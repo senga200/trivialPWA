@@ -4,8 +4,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #1c4f6c;
+}
+
+main{
+    padding-top: 0 2rem;
+    height: 100vh;
 }
 
 h1{
@@ -252,21 +256,24 @@ button:hover::after {
     .container{
         display: flex;
         flex-direction: column;
-        margin: 1rem;
+        margin:0;
 
     }   
     .question-section{
-        margin: 1rem;
+        margin: 0rem;
     }
     #question{
-        margin: 1rem;
+        margin: 0rem;
     }
     input{
-        margin: 1rem;
+        margin: 1rem 0;
     }
 
     #submit-answer{
         margin: 1rem;
+    }
+    .choix-section{
+        margin: 0;
     }
 
 
