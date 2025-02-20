@@ -65,6 +65,12 @@
         <mxCell id="fl6Sre16O79JsTlQB5W1-1" value="&lt;div&gt;Question a une relation n-1 avec Category.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Level a une relation 1-n avec Question.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="720" width="330" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fl6Sre16O79JsTlQB5W1-9" value="bidirectionnel&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fl6Sre16O79JsTlQB5W1-10" value="unidirectionnel&lt;div&gt;4&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="590" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
