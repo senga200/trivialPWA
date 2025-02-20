@@ -34,7 +34,7 @@
         <mxCell id="_Tn0ZQFLe_sfuL1e2KXQ-26" value="+ name : VARCHAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_Tn0ZQFLe_sfuL1e2KXQ-24">
           <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Tn0ZQFLe_sfuL1e2KXQ-28" value="+ proposition : VARCHAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_Tn0ZQFLe_sfuL1e2KXQ-24">
+        <mxCell id="_Tn0ZQFLe_sfuL1e2KXQ-28" value="+ proposition : JSON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_Tn0ZQFLe_sfuL1e2KXQ-24">
           <mxGeometry y="78" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_Tn0ZQFLe_sfuL1e2KXQ-30" value="+ reponse : VARCHAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_Tn0ZQFLe_sfuL1e2KXQ-24">
