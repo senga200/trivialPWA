@@ -8,7 +8,6 @@ body {
 }
 
 main{
-    padding-top: 0 2rem;
     height: 100vh;
     max-height: 100dvh;
 }
@@ -251,6 +250,9 @@ button:hover::after {
 
 
 @media screen and (max-width: 768px) {
+    h1{
+        padding-top: 4rem;
+    }
     .bidule{
         top :auto;
     }
@@ -258,8 +260,17 @@ button:hover::after {
         display: flex;
         flex-direction: column;
         margin:0;
-
     }   
+
+    .roue {
+        width: 260px;
+        height: 260px;
+
+    }
+
+    .titreTheme{
+        font-size: 11px;
+    }
     .question-section{
         margin: 0rem;
     }
@@ -267,7 +278,7 @@ button:hover::after {
         margin: 0rem;
     }
     input{
-        margin: 1rem 0;
+        margin: 1rem;
     }
 
     #submit-answer{
